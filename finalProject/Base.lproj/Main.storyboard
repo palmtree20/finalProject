@@ -96,15 +96,17 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="sustainable brands" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tyZ-qE-IBj">
-                                <rect key="frame" x="131" y="692" width="152" height="33"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5nv-Kc-SBl">
+                                <rect key="frame" x="122" y="700" width="169" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.94503630049999998" green="0.70753459590000001" blue="0.68205438860000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="tintColor" systemColor="labelColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="sustainable brands list"/>
+                                <connections>
+                                    <segue destination="we0-G6-zZk" kind="show" id="UrD-Q2-w5e"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.767749902352174" green="0.86714052750000004" blue="0.81183391220127266" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -119,19 +121,20 @@
             <objects>
                 <viewController id="we0-G6-zZk" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="oeW-gD-zD3">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sustainable Brands List" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="szK-oO-F6n">
-                                <rect key="frame" x="53" y="120" width="178" height="21"/>
+                                <rect key="frame" x="53" y="78" width="178" height="67"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="- Levis (make the name a  link?)                        https://www.glamour.com/story/sustainable-fashion-brands" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="puQ-Gg-oZH">
-                                <rect key="frame" x="53" y="195" width="309" height="223"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="puQ-Gg-oZH">
+                                <rect key="frame" x="53" y="124" width="309" height="223"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">we split this section into 16 categories. we will give you stores for activewear, tops, bottoms, denim, dresses/jumpsuits, loungewear/knitwear, outerwear, suits, basic/intimates, sleepwear, swim, maternity, plus sized, shoes, accessories, and bags!</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -140,10 +143,11 @@
                         <viewLayoutGuide key="safeArea" id="GFB-mH-tMK"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="X98-Xr-5PP"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yQu-4r-9T2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-706" y="488"/>
+            <point key="canvasLocation" x="-707.24637681159425" y="487.5"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="wkl-sJ-Ut4">
