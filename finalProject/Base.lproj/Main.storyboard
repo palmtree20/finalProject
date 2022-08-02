@@ -45,6 +45,9 @@
                                 <color key="tintColor" systemColor="labelColor"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="store matcher"/>
+                                <connections>
+                                    <segue destination="6mK-nt-4Yy" kind="show" id="P6b-Jy-mCC"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YD1-aA-siJ">
                                 <rect key="frame" x="158" y="404" width="99" height="31"/>
@@ -53,6 +56,9 @@
                                 <color key="tintColor" systemColor="labelColor"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="store finder"/>
+                                <connections>
+                                    <segue destination="Qs7-PC-xgM" kind="show" id="ufo-gf-sIq"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HBk-l4-VAI">
                                 <rect key="frame" x="133" y="753" width="148" height="31"/>
@@ -72,6 +78,9 @@
                                 <color key="tintColor" systemColor="labelColor"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="rework your closet"/>
+                                <connections>
+                                    <segue destination="lKx-r6-jVg" kind="show" id="Pj5-8V-ei7"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="TOOLS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ALc-lW-C08">
                                 <rect key="frame" x="180" y="212" width="55" height="21"/>
@@ -134,7 +143,32 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yQu-4r-9T2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="827.536231884058" y="265.84821428571428"/>
+            <point key="canvasLocation" x="-706" y="488"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="wkl-sJ-Ut4">
+            <objects>
+                <viewController id="Qs7-PC-xgM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="uyM-NX-zwk">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="store finder" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bG2-pi-uCj">
+                                <rect key="frame" x="186" y="126" width="88" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="yTZ-Wk-W2t"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="zPL-MJ-7wh"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oor-Mj-YWm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1464" y="231"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="dA0-qq-gsf">
@@ -221,6 +255,31 @@
             <point key="canvasLocation" x="906" y="-848"/>
         </scene>
         <!--View Controller-->
+        <scene sceneID="AA2-lL-RuE">
+            <objects>
+                <viewController id="6mK-nt-4Yy" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jfu-Ds-UfN">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="store matcher" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xIn-W5-EOc">
+                                <rect key="frame" x="154" y="109" width="106" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="64O-DQ-xtF"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="6bC-Be-nqf"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LRH-y0-Pfw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1194.2028985507247" y="-288.61607142857139"/>
+        </scene>
+        <!--View Controller-->
         <scene sceneID="dbX-hS-rso">
             <objects>
                 <viewController id="vV9-nN-jyx" sceneMemberID="viewController">
@@ -265,7 +324,32 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="i2e-df-nim" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="155" y="812"/>
+            <point key="canvasLocation" x="19" y="818"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="KzE-v1-552">
+            <objects>
+                <viewController id="lKx-r6-jVg" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="AbB-yU-sFM">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="rework your closet" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0xK-sY-8N8">
+                                <rect key="frame" x="132" y="110" width="141" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="nxx-sP-fuv"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="pbU-SG-37x"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Qqo-vc-6Ox" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="828.98550724637687" y="609.375"/>
         </scene>
     </scenes>
     <resources>
