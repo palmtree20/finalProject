@@ -363,13 +363,13 @@ Nightswim ($$) 		great</string>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OMc-JX-Q5C">
                                 <rect key="frame" x="20" y="115" width="203" height="374"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">⚬ The clothing and textile industry is depleting non-renewable resources, emitting huge quantities of greenhouse gasses and using massive quantities of energy, chemicals and water.
+                                <string key="text">⚬ The clothing and textile industry is depleting non-renewable resources, emitting huge quantities of greenhouse gasses and using massive quantities of energy, chemicals and water.
 
 ⚬ Fast fashion's negative impact includes its use of cheap, toxic textile dyes—making the fashion industry the one of the largest polluters of clean water globally, right up there with agriculture.
 
 ⚬ Fast fashion promotes a consumerist lifestyle.
 
-</mutableString>
+</string>
                                 <fontDescription key="fontDescription" name="Didot-Bold" family="Didot" pointSize="12"/>
                                 <color key="textColor" red="0.27843138579999999" green="0.22745099660000001" blue="0.082352943720000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
@@ -377,7 +377,7 @@ Nightswim ($$) 		great</string>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oZa-JC-IL4">
                                 <rect key="frame" x="20" y="424" width="384" height="384"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">⚬ Fast fashion is eroding the second hand clothes trade.
+                                <string key="text">⚬ Fast fashion is eroding the second hand clothes trade.
 
 ⚬ Cheap clothes need cheap labor.
 
@@ -394,7 +394,7 @@ Nightswim ($$) 		great</string>
 ⚬ Fast fashion creates 92 million tons per year.
 
 
-</mutableString>
+</string>
                                 <fontDescription key="fontDescription" name="Didot-Bold" family="Didot" pointSize="12"/>
                                 <color key="textColor" red="0.27843138579999999" green="0.22745099660000001" blue="0.082352943720000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
@@ -446,7 +446,7 @@ Nightswim ($$) 		great</string>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ICV-Md-IHm">
                                 <rect key="frame" x="584" y="433" width="3316" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">Cycle Up is a sustainable clothing app created by 3 KWK scholars: Sloane, Hesha, and Katie. We created this app to spread knowledge and awareness about the sustainability issues of the fashion industry. We strive to help users minimize their time in trying to create and find new outfits to wear, and help find sustainable clothing brands for users to shop at. As a team, we spread  awareness by educating others on the effects of clothing waste, and help them gain knowledge about sustainable brands and practices. </mutableString>
+                                <string key="text">Cycle Up is a sustainable clothing app created by 3 KWK scholars: Sloane, Hesha, and Katie. We created this app to spread knowledge and awareness about the sustainability issues of the fashion industry. We strive to help users minimize their time in trying to create and find new outfits to wear, and help find sustainable clothing brands for users to shop at. As a team, we spread  awareness by educating others on the effects of clothing waste, and help them gain knowledge about sustainable brands and practices. </string>
                                 <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -491,15 +491,6 @@ Nightswim ($$) 		great</string>
                     <view key="view" contentMode="scaleToFill" id="EMM-Cg-kLC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Closet" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R1z-Ce-fUf">
-                                <rect key="frame" x="183" y="267" width="49" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
                         <viewLayoutGuide key="safeArea" id="YPx-Kw-8gi"/>
                         <color key="backgroundColor" red="0.77647060160000003" green="0.73725497719999999" blue="0.6549019814" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
