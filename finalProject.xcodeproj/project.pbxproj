@@ -17,6 +17,8 @@
 		BD094EE82898881400A73C11 /* finalProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD094EE72898881400A73C11 /* finalProjectTests.swift */; };
 		BD094EF22898881400A73C11 /* finalProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD094EF12898881400A73C11 /* finalProjectUITests.swift */; };
 		BD094EF42898881400A73C11 /* finalProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD094EF32898881400A73C11 /* finalProjectUITestsLaunchTests.swift */; };
+		BD4ACC05289C30CD002BBD58 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4ACC04289C30CD002BBD58 /* ResultsViewController.swift */; };
+		BD4ACC07289C3598002BBD58 /* storeMatcherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4ACC06289C3598002BBD58 /* storeMatcherViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		BD094EED2898881400A73C11 /* finalProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = finalProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD094EF12898881400A73C11 /* finalProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = finalProjectUITests.swift; sourceTree = "<group>"; };
 		BD094EF32898881400A73C11 /* finalProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = finalProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BD4ACC04289C30CD002BBD58 /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		BD4ACC06289C3598002BBD58 /* storeMatcherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = storeMatcherViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,8 @@
 		BD094EC12898881100A73C11 = {
 			isa = PBXGroup;
 			children = (
+				BD4ACC06289C3598002BBD58 /* storeMatcherViewController.swift */,
+				BD4ACC04289C30CD002BBD58 /* ResultsViewController.swift */,
 				BD094ECC2898881100A73C11 /* finalProject */,
 				BD094EE62898881400A73C11 /* finalProjectTests */,
 				BD094EF02898881400A73C11 /* finalProjectUITests */,
@@ -262,9 +268,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD094ED22898881100A73C11 /* ViewController.swift in Sources */,
+				BD4ACC07289C3598002BBD58 /* storeMatcherViewController.swift in Sources */,
 				BD094ECE2898881100A73C11 /* AppDelegate.swift in Sources */,
 				BD094ED82898881100A73C11 /* finalProject.xcdatamodeld in Sources */,
 				BD094ED02898881100A73C11 /* SceneDelegate.swift in Sources */,
+				BD4ACC05289C30CD002BBD58 /* ResultsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
