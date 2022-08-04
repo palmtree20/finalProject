@@ -223,10 +223,10 @@
             </objects>
             <point key="canvasLocation" x="766" y="-584"/>
         </scene>
-        <!--View Controller-->
+        <!--Store Matcher View Controller-->
         <scene sceneID="9LS-C4-04G">
             <objects>
-                <viewController id="pLO-hH-6PS" sceneMemberID="viewController">
+                <viewController id="pLO-hH-6PS" customClass="storeMatcherViewController" customModule="finalProject" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="KQC-PG-FkC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -250,18 +250,27 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="$"/>
+                                <connections>
+                                    <action selector="oneDollar:" destination="pLO-hH-6PS" eventType="touchUpInside" id="pjH-q5-RKb"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vAd-Rk-rdK">
                                 <rect key="frame" x="168" y="183" width="42" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="$$"/>
+                                <connections>
+                                    <action selector="twoDollar:" destination="pLO-hH-6PS" eventType="touchUpInside" id="SXQ-RZ-QVX"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kmt-ey-eVs">
                                 <rect key="frame" x="259" y="181" width="51" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="$$$"/>
+                                <connections>
+                                    <action selector="threeDollar:" destination="pLO-hH-6PS" eventType="touchUpInside" id="u89-rE-3HJ"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Clothing Type" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4kU-4S-tSV">
                                 <rect key="frame" x="105" y="332" width="106" height="21"/>
@@ -275,24 +284,36 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Tops"/>
+                                <connections>
+                                    <action selector="topsButton:" destination="pLO-hH-6PS" eventType="touchUpInside" id="lJe-dK-Mjb"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L2s-Kx-iLT">
                                 <rect key="frame" x="84" y="444" width="79" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Bottoms"/>
+                                <connections>
+                                    <action selector="bottomsChoice:" destination="pLO-hH-6PS" eventType="touchUpInside" id="rDU-Sm-fyp"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="my4-ue-JzI">
                                 <rect key="frame" x="178" y="430" width="77" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Dresses"/>
+                                <connections>
+                                    <action selector="dressesButton:" destination="pLO-hH-6PS" eventType="touchUpInside" id="lMs-BU-qn0"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nZn-IC-5OJ">
                                 <rect key="frame" x="247" y="439" width="102" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Accessories"/>
+                                <connections>
+                                    <action selector="accessoriesButton:" destination="pLO-hH-6PS" eventType="touchUpInside" id="0r1-oj-qka"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sustainability Rating" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KMB-5B-u0O">
                                 <rect key="frame" x="102" y="593" width="155" height="21"/>
@@ -308,6 +329,7 @@
                                 <buttonConfiguration key="configuration" style="plain" title="Good"/>
                                 <connections>
                                     <action selector="goodButton:" destination="kJk-l1-cAd" eventType="touchUpInside" id="40U-97-puK"/>
+                                    <action selector="goodButton:" destination="pLO-hH-6PS" eventType="touchUpInside" id="YGF-cU-39Z"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mj2-en-A5c">
@@ -315,6 +337,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Great"/>
+                                <connections>
+                                    <action selector="greatButton:" destination="pLO-hH-6PS" eventType="touchUpInside" id="I8f-eL-2Le"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tbv-bT-Y1b">
                                 <rect key="frame" x="133" y="789" width="70" height="31"/>
@@ -322,6 +347,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Submit"/>
                                 <connections>
+                                    <action selector="submitAnswersButton:" destination="pLO-hH-6PS" eventType="touchUpInside" id="PF1-Ws-CQ2"/>
                                     <action selector="submitAnswersButton:" destination="kJk-l1-cAd" eventType="touchUpInside" id="w9Q-EZ-CJn"/>
                                 </connections>
                             </button>
@@ -339,10 +365,10 @@
             </objects>
             <point key="canvasLocation" x="970" y="84"/>
         </scene>
-        <!--View Controller-->
+        <!--Results View Controller-->
         <scene sceneID="fxj-ym-NZn">
             <objects>
-                <viewController id="bxN-Yi-aHh" sceneMemberID="viewController">
+                <viewController id="bxN-Yi-aHh" customClass="ResultsViewController" customModule="finalProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3rZ-My-Hwb">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -359,6 +385,9 @@
                         <color key="backgroundColor" red="0.77647060160000003" green="0.73725497719999999" blue="0.6549019814" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" id="P72-c5-bau"/>
+                    <connections>
+                        <outlet property="chosenStoresLabel" destination="bMi-0n-wP4" id="WOM-Ai-UlO"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2lQ-IF-rCC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
