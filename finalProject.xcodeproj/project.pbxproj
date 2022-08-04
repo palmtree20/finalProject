@@ -19,6 +19,7 @@
 		BD094EF42898881400A73C11 /* finalProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD094EF32898881400A73C11 /* finalProjectUITestsLaunchTests.swift */; };
 		BD4ACC05289C30CD002BBD58 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4ACC04289C30CD002BBD58 /* ResultsViewController.swift */; };
 		BD4ACC07289C3598002BBD58 /* storeMatcherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4ACC06289C3598002BBD58 /* storeMatcherViewController.swift */; };
+		BD90ED27289C73320083B12C /* ClosetVirtualViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD90ED26289C73320083B12C /* ClosetVirtualViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		BD094EF32898881400A73C11 /* finalProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = finalProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		BD4ACC04289C30CD002BBD58 /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
 		BD4ACC06289C3598002BBD58 /* storeMatcherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = storeMatcherViewController.swift; sourceTree = "<group>"; };
+		BD90ED26289C73320083B12C /* ClosetVirtualViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosetVirtualViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 				BD094ECF2898881100A73C11 /* SceneDelegate.swift */,
 				BD094ED12898881100A73C11 /* ViewController.swift */,
 				BD094ED32898881100A73C11 /* Main.storyboard */,
+				BD90ED26289C73320083B12C /* ClosetVirtualViewController.swift */,
 				BD094ED92898881400A73C11 /* Assets.xcassets */,
 				BD094EDB2898881400A73C11 /* LaunchScreen.storyboard */,
 				BD094EDE2898881400A73C11 /* Info.plist */,
@@ -271,6 +274,7 @@
 				BD4ACC07289C3598002BBD58 /* storeMatcherViewController.swift in Sources */,
 				BD094ECE2898881100A73C11 /* AppDelegate.swift in Sources */,
 				BD094ED82898881100A73C11 /* finalProject.xcdatamodeld in Sources */,
+				BD90ED27289C73320083B12C /* ClosetVirtualViewController.swift in Sources */,
 				BD094ED02898881100A73C11 /* SceneDelegate.swift in Sources */,
 				BD4ACC05289C30CD002BBD58 /* ResultsViewController.swift in Sources */,
 			);
