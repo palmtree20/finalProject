@@ -198,16 +198,20 @@
             </objects>
             <point key="canvasLocation" x="18.840579710144929" y="83.705357142857139"/>
         </scene>
-        <!--View Controller-->
+        <!--Map View Controller-->
         <scene sceneID="xZH-WS-mkq">
             <objects>
-                <viewController id="Ndv-Ni-6de" sceneMemberID="viewController">
+                <viewController id="Ndv-Ni-6de" customClass="mapViewController" customModule="finalProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="L2F-aM-tCl">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="RzH-cc-swt">
+                                <rect key="frame" x="14" y="92" width="380" height="716"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </mapView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Store Finder" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WTD-Cq-iQ3">
-                                <rect key="frame" x="161" y="265" width="93" height="21"/>
+                                <rect key="frame" x="158" y="44" width="93" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -218,10 +222,13 @@
                         <color key="backgroundColor" red="0.77647060160000003" green="0.73333334920000004" blue="0.6549019814" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" id="0jI-gw-z4X"/>
+                    <connections>
+                        <outlet property="mapView" destination="RzH-cc-swt" id="TjX-IE-Rw1"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Aeb-Kw-met" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="766" y="-584"/>
+            <point key="canvasLocation" x="765.21739130434787" y="-584.59821428571422"/>
         </scene>
         <!--Store Matcher View Controller-->
         <scene sceneID="9LS-C4-04G">
