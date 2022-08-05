@@ -13,10 +13,12 @@ class ClosetVirtualViewController: UIViewController {
         var track = 0
         var trackPant = 0
         var trackShoe = 0
-        var pant = ["Trousers", "CremePants", "JeanSkirt", "BlackPants","BrownCargos","Jeans"]
+        var pant = ["BrownLeg", "CSkirt", "Short", "BlackPants","Skirt","Jeans"]
     
-    @IBAction func ForwardPantButton(_ sender: Any) {
-        if (trackPant == pant.count){
+    
+    
+    @IBAction func ForwardButtonPant(_ sender: Any) {
+    if (trackPant == pant.count){
             trackPant = 0
         }
         PantImageView.image = UIImage(named:pant[trackPant])
@@ -24,8 +26,9 @@ class ClosetVirtualViewController: UIViewController {
     }
     
     
-    @IBAction func BackPantButton(_ sender: Any) {
-        if trackPant == 0{
+   
+    @IBAction func BackButtonPant(_ sender: Any) {
+    if trackPant == 0{
             trackPant = pant.count-1
         }
         else {track -= 1
@@ -34,18 +37,20 @@ class ClosetVirtualViewController: UIViewController {
     }
     
     @IBOutlet weak var TopImageView: UIImageView!
-    var top = ["BlackLongSleeve", "CorsetTop", "TanSleeve", "GreenSleeve", "WhiteTop", "BrownLong"]
+    var top = ["WhiteS", "CorsetTop", "TanSleeve", "BlackCross", "GreenTop", "BrownLong"]
     
-    @IBAction func ForwardTopButton(_ sender: Any) {
-        if (track == top.count){
+    
+    @IBAction func ForwardButtonTop(_ sender: Any) {
+    if (track == top.count){
             track = 0
     }
         TopImageView.image = UIImage(named:top[track])
         track += 1
     }
     
-    @IBAction func BackTopButton(_ sender: Any) {
-        if track == 0{
+    
+    @IBAction func BackButtonTop(_ sender: Any) {
+    if track == 0{
             track = top.count-1
     }
         else {track -= 1
@@ -58,8 +63,9 @@ class ClosetVirtualViewController: UIViewController {
     var shoe = ["BlueSneakers", "NewBalance", "WhiteKittenHeels", "BlackSlides","jordans","WhitePlat"]
     
     
-    @IBAction func ForwardShoeButton(_ sender: Any) {
-        if (trackShoe == shoe.count){
+    
+    @IBAction func ForwardButtonShoe(_ sender: Any) {
+    if (trackShoe == shoe.count){
             trackShoe = 0
         }
         ShoeImageView.image =
@@ -67,8 +73,9 @@ class ClosetVirtualViewController: UIViewController {
         trackShoe += 1
     }
     
-    @IBAction func BackShoeButton(_ sender: Any) {
-        if trackShoe == 0{
+    
+    @IBAction func BackButtonShoe(_ sender: Any) {
+    if trackShoe == 0{
             trackShoe = top.count-1
         }
         else {trackShoe -= 1

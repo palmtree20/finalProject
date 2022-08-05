@@ -9,6 +9,69 @@
     </dependencies>
     <scenes>
         <!--View Controller-->
+        <scene sceneID="Kgx-ex-bSR">
+            <objects>
+                <viewController id="NQl-Nh-KmG" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="oCZ-xn-S3w">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Styles 4" translatesAutoresizingMaskIntoConstraints="NO" id="ehr-ZB-p3Q">
+                                <rect key="frame" x="0.0" y="0.0" width="513" height="253"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PIz-aj-K5v">
+                                <rect key="frame" x="31" y="306" width="353" height="121"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">- https://www.vogue.com/article/coronavirus-response-small-independent-designers-to-support
+</string>
+                                <fontDescription key="fontDescription" name="Didot-Bold" family="Didot" pointSize="20"/>
+                                <color key="textColor" red="0.231372565" green="0.1215686351" blue="0.070588238540000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-08-05 at 1.35.49 PM" translatesAutoresizingMaskIntoConstraints="NO" id="4Xf-24-o2d">
+                                <rect key="frame" x="0.0" y="19" width="104" height="215"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="- https://www.vogue.co.uk/arts-and-lifestyle/article/tech-career-paths" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="94X-nh-4xf">
+                                <rect key="frame" x="31" y="411" width="353" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Didot-Bold" family="Didot" pointSize="20"/>
+                                <color key="textColor" red="0.231372565" green="0.1215686351" blue="0.070588238540000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="- https://www.vogue.co.uk/gallery/how-to-wear-brown-ss19" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eGh-vu-txN">
+                                <rect key="frame" x="31" y="494" width="353" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Didot-Bold" family="Didot" pointSize="20"/>
+                                <color key="textColor" red="0.231372565" green="0.1215686351" blue="0.070588238540000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="- https://www.fashioneditorials.com/justin-polkey-latest-editorial-for-vogue-india/" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Moq-e9-HW9">
+                                <rect key="frame" x="31" y="567" width="334" height="92"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Didot-Bold" family="Didot" pointSize="20"/>
+                                <color key="textColor" red="0.231372565" green="0.1215686351" blue="0.070588238540000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="- https://www.vogue.com/slideshow/chicest-colors-neutral-tones-summer-fashion-trends" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vNW-k9-u0b">
+                                <rect key="frame" x="20" y="667" width="345" height="83"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Didot-Bold" family="Didot" pointSize="20"/>
+                                <color key="textColor" red="0.231372565" green="0.1215686351" blue="0.070588238540000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Lf2-MA-vQN"/>
+                        <color key="backgroundColor" red="0.77647060160000003" green="0.73725497719999999" blue="0.6549019814" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="dft-OE-esO"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sAk-Vx-h1T" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1562.3188405797102" y="128.57142857142856"/>
+        </scene>
+        <!--View Controller-->
         <scene sceneID="9p0-3G-M3W">
             <objects>
                 <viewController id="e2H-e7-TQU" sceneMemberID="viewController">
@@ -65,6 +128,25 @@
                                     <segue destination="5CZ-FZ-raN" kind="show" id="r9s-Aj-5rD"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aTR-AY-lZY">
+                                <rect key="frame" x="54" y="577" width="112" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Sources">
+                                    <fontDescription key="titleFontDescription" name="Didot-Bold" family="Didot" pointSize="24"/>
+                                    <color key="baseForegroundColor" red="0.231372565" green="0.1215686351" blue="0.070588238540000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="NQl-Nh-KmG" kind="show" id="bUs-ay-yAb"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="⦵" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mgk-NI-LkH">
+                                <rect key="frame" x="20" y="580" width="22" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vqr-LM-259"/>
                         <color key="backgroundColor" red="0.77647060160000003" green="0.72941178080000002" blue="0.6549019814" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -417,7 +499,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bMi-0n-wP4">
                                 <rect key="frame" x="50" y="20" width="314" height="788"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Didot-Bold" family="Didot" pointSize="55"/>
+                                <fontDescription key="fontDescription" name="Didot-Bold" family="Didot" pointSize="40"/>
                                 <color key="textColor" red="0.2147833441" green="0.10119969920000001" blue="0.049861829820000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -549,12 +631,12 @@ Nightswim ($$) 		great</string>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OMc-JX-Q5C">
                                 <rect key="frame" x="20" y="115" width="203" height="701"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">⚬ The clothing and textile industry is depleting non-renewable resources, emitting huge quantities of greenhouse gasses and using massive quantities of energy, chemicals and water.
+                                <string key="text">⚬ The clothing and textile industry is depleting non-renewable resources, emitting huge quantities of greenhouse gasses and using massive quantities of energy, chemicals and water.
 
 ⚬ Fast fashion's negative impact includes its use of cheap, toxic textile dyes—making the fashion industry the one of the largest polluters of clean water globally, right up there with agriculture.
 
 ⚬ Fast fashion promotes a consumerist lifestyle.
-</mutableString>
+</string>
                                 <fontDescription key="fontDescription" name="Didot-Bold" family="Didot" pointSize="20"/>
                                 <color key="textColor" red="0.27843138579999999" green="0.22745099660000001" blue="0.082352943720000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
@@ -615,7 +697,7 @@ Nightswim ($$) 		great</string>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cg4-RJ-Okb">
                                 <rect key="frame" x="20" y="54" width="374" height="737"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">⚬ The textile industry is responsible for 20% of all industrial water pollution and 10% of carbon emissions.
+                                <string key="text">⚬ The textile industry is responsible for 20% of all industrial water pollution and 10% of carbon emissions.
 
 ⚬ It is derived from fossil fuels, contributes to global warming and can shed microfibres that add to the increasing levels of plastic in our oceans when it's put through the wash.
 
@@ -623,7 +705,7 @@ Nightswim ($$) 		great</string>
 
 ⚬ The fashion industry produces about 53 million tonnes of fiber every year, 70% of which ends up in garbage dumps, or is incinerated.
 
-⚬ Fast fashion creates 92 million tons per year.</mutableString>
+⚬ Fast fashion creates 92 million tons per year.</string>
                                 <fontDescription key="fontDescription" name="Didot-Bold" family="Didot" pointSize="23"/>
                                 <color key="textColor" red="0.27843138579999999" green="0.22745099660000001" blue="0.082352943720000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
@@ -647,16 +729,9 @@ Nightswim ($$) 		great</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-08-03 at 2.44.22 PM" translatesAutoresizingMaskIntoConstraints="NO" id="ee4-42-oYX">
-                                <rect key="frame" x="143" y="44" width="251" height="361"/>
+                                <rect key="frame" x="166" y="44" width="228" height="325"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ABOUT US" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nFi-oB-UUn">
-                                <rect key="frame" x="0.0" y="61" width="192" height="45"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Didot-Bold" family="Didot" pointSize="35"/>
-                                <color key="textColor" red="0.2147833441" green="0.10119969920000001" blue="0.049861829820000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ICV-Md-IHm">
                                 <rect key="frame" x="584" y="433" width="3316" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -666,32 +741,39 @@ Nightswim ($$) 		great</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eLQ-ON-ZjG">
-                                <rect key="frame" x="221" y="402" width="158" height="348"/>
+                                <rect key="frame" x="10" y="114" width="158" height="278"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">Cycle Up is a sustainable clothing app created by 3 KWK scholars: Sloane, Hesha, and Katie. We created this app to spread knowledge and awareness about the sustainability issues of the fashion industry. We strive to help users minimize their time in trying to create and find new </string>
-                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="17"/>
+                                <string key="text">Cycle Up is a sustainable clothing app created by 3 KWK scholars: Sloane, Hesha, and Katie. We created this app to spread knowledge </string>
+                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="21"/>
                                 <color key="textColor" red="0.2147833441" green="0.10119969920000001" blue="0.049861829820000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="outfits to wear, and help find sustainable clothing brands for users to shop at. " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="os7-LG-Bel">
-                                <rect key="frame" x="187" y="413" width="227" height="69"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="os7-LG-Bel">
+                                <rect key="frame" x="10" y="556" width="391" height="252"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="17"/>
+                                <string key="text">We strive to help users minimize their time in trying to create and find new outfits to wear, and help find sustainable clothing brands for users to shop at. As a team, we spread  awareness by educating others on the effects of clothing waste, and help them gain knowledge about sustainable brands and practices. </string>
+                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="21"/>
                                 <color key="textColor" red="0.2147833441" green="0.10119969920000001" blue="0.049861829820000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AlG-AB-1B4">
-                                <rect key="frame" x="253" y="460" width="148" height="272"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">As a team, we spread  awareness by educating others on the effects of clothing waste, and help them gain knowledge about sustainable brands and practices. </string>
-                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="17"/>
-                                <color key="textColor" red="0.2147833441" green="0.10119969920000001" blue="0.049861829820000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-08-03 at 2.57.10 PM" translatesAutoresizingMaskIntoConstraints="NO" id="0oQ-Yh-mH6">
-                                <rect key="frame" x="20" y="402" width="201" height="271"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-08-05 at 1.10.59 PM" translatesAutoresizingMaskIntoConstraints="NO" id="ZXC-AF-UPU">
+                                <rect key="frame" x="12" y="388" width="224" height="160"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="and awareness about the sustainability issues of the fashion industry. " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cqP-Hi-n8o">
+                                <rect key="frame" x="244" y="365" width="157" height="191"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="21"/>
+                                <color key="textColor" red="0.231372565" green="0.1215686351" blue="0.070588238540000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ABOUT US" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nFi-oB-UUn">
+                                <rect key="frame" x="28" y="61" width="192" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Didot-Bold" family="Didot" pointSize="35"/>
+                                <color key="textColor" red="0.2147833441" green="0.10119969920000001" blue="0.049861829820000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="NF3-cL-MW9"/>
                         <color key="backgroundColor" red="0.77647060160000003" green="0.73333334920000004" blue="0.6549019814" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -711,87 +793,96 @@ Nightswim ($$) 		great</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Virtual Closet" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K2K-ek-7fc">
-                                <rect key="frame" x="59" y="20" width="297" height="117"/>
+                                <rect key="frame" x="18" y="44" width="230" height="63"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Didot-Bold" family="Didot" pointSize="43"/>
+                                <fontDescription key="fontDescription" name="Didot-Bold" family="Didot" pointSize="35"/>
                                 <color key="textColor" red="0.2147833441" green="0.10119969920000001" blue="0.049861829820000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="g4M-FT-w7V">
-                                <rect key="frame" x="92" y="136" width="242" height="191"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="SatinTop" translatesAutoresizingMaskIntoConstraints="NO" id="g4M-FT-w7V">
+                                <rect key="frame" x="91" y="99" width="216" height="180"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="I5T-9g-3Pb">
-                                <rect key="frame" x="81" y="565" width="253" height="277"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cargo" translatesAutoresizingMaskIntoConstraints="NO" id="dWp-aM-Txe">
+                                <rect key="frame" x="91" y="336" width="233" height="211"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dWp-aM-Txe">
-                                <rect key="frame" x="87" y="326" width="247" height="265"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fES-tY-Hym">
-                                <rect key="frame" x="342" y="158" width="42" height="82"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mMj-wr-jPE">
+                                <rect key="frame" x="311" y="291" width="72" height="236"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="˲">
-                                    <fontDescription key="titleFontDescription" name="Didot" family="Didot" pointSize="65"/>
-                                    <color key="baseForegroundColor" red="0.2147833441" green="0.10119969920000001" blue="0.049861829820000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <fontDescription key="titleFontDescription" name="Didot-Bold" family="Didot" pointSize="65"/>
+                                    <color key="baseForegroundColor" red="0.231372565" green="0.1215686351" blue="0.070588238540000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="ForwardButtonPant:" destination="RFg-ZM-2ZO" eventType="touchUpInside" id="Hdz-Fj-Vop"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4tw-dE-29K">
-                                <rect key="frame" x="342" y="378" width="42" height="79"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kQP-H7-jTA">
+                                <rect key="frame" x="337" y="147" width="46" height="111"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="˲">
-                                    <fontDescription key="titleFontDescription" name="Didot" family="Didot" pointSize="65"/>
-                                    <color key="baseForegroundColor" red="0.2147833441" green="0.10119969920000001" blue="0.049861829820000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <fontDescription key="titleFontDescription" name="Didot-Bold" family="Didot" pointSize="65"/>
+                                    <color key="baseForegroundColor" red="0.231372565" green="0.1215686351" blue="0.070588238540000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="ForwardButtonTop:" destination="RFg-ZM-2ZO" eventType="touchUpInside" id="IcJ-ec-iMj"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i9U-zn-lFW">
-                                <rect key="frame" x="342" y="649" width="42" height="82"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qup-sJ-p55">
+                                <rect key="frame" x="18" y="336" width="61" height="170"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="˱">
+                                    <fontDescription key="titleFontDescription" name="Didot-Bold" family="Didot" pointSize="65"/>
+                                    <color key="baseForegroundColor" red="0.231372565" green="0.1215686351" blue="0.070588238540000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="BackButtonTop:" destination="RFg-ZM-2ZO" eventType="touchUpInside" id="xnX-o9-kva"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qZB-XW-p8w">
+                                <rect key="frame" x="16" y="151" width="67" height="102"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="˱">
+                                    <fontDescription key="titleFontDescription" name="Didot-Bold" family="Didot" pointSize="65"/>
+                                    <color key="baseForegroundColor" red="0.231372565" green="0.1215686351" blue="0.070588238540000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="BackButtonPant:" destination="RFg-ZM-2ZO" eventType="touchUpInside" id="h6F-Jo-wKk"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8qt-5n-Svb">
+                                <rect key="frame" x="322" y="675" width="67" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="˲">
-                                    <fontDescription key="titleFontDescription" name="Didot" family="Didot" pointSize="65"/>
-                                    <color key="baseForegroundColor" red="0.2147833441" green="0.10119969920000001" blue="0.049861829820000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <fontDescription key="titleFontDescription" name="Didot-Bold" family="Didot" pointSize="65"/>
+                                    <color key="baseForegroundColor" red="0.231372565" green="0.1215686351" blue="0.070588238540000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="ForwardButtonShoe:" destination="RFg-ZM-2ZO" eventType="touchUpInside" id="fZb-xT-z91"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HaO-bH-zmH">
-                                <rect key="frame" x="22" y="145" width="46" height="108"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h2o-lz-4af">
+                                <rect key="frame" x="16" y="642" width="46" height="111"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="˱">
-                                    <fontDescription key="titleFontDescription" name="Didot" family="Didot" pointSize="65"/>
-                                    <color key="baseForegroundColor" red="0.2147833441" green="0.10119969920000001" blue="0.049861829820000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <fontDescription key="titleFontDescription" name="Didot-Bold" family="Didot" pointSize="65"/>
+                                    <color key="baseForegroundColor" red="0.231372565" green="0.1215686351" blue="0.070588238540000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="BackTopButton:" destination="RFg-ZM-2ZO" eventType="touchUpInside" id="c3I-7z-6br"/>
+                                    <action selector="BackButtonShoe:" destination="RFg-ZM-2ZO" eventType="touchUpInside" id="bGX-pS-XBQ"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qFT-fz-Bog">
-                                <rect key="frame" x="16" y="363" width="46" height="108"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MyMelodyShoes" translatesAutoresizingMaskIntoConstraints="NO" id="I5T-9g-3Pb">
+                                <rect key="frame" x="91" y="570" width="201" height="272"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="˱">
-                                    <fontDescription key="titleFontDescription" name="Didot" family="Didot" pointSize="65"/>
-                                    <color key="baseForegroundColor" red="0.2147833441" green="0.10119969920000001" blue="0.049861829820000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="BackTopButton:" destination="RFg-ZM-2ZO" eventType="touchUpInside" id="EPx-At-gHW"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Owe-fn-OgZ">
-                                <rect key="frame" x="16" y="636" width="46" height="108"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="˱">
-                                    <fontDescription key="titleFontDescription" name="Didot" family="Didot" pointSize="65"/>
-                                    <color key="baseForegroundColor" red="0.2147833441" green="0.10119969920000001" blue="0.049861829820000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="BackTopButton:" destination="RFg-ZM-2ZO" eventType="touchUpInside" id="hgF-ed-pN8"/>
-                                </connections>
-                            </button>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="YPx-Kw-8gi"/>
                         <color key="backgroundColor" red="0.77647060160000003" green="0.73725497719999999" blue="0.6549019814" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -810,11 +901,16 @@ Nightswim ($$) 		great</string>
     </scenes>
     <resources>
         <image name="0" width="994" height="1468"/>
+        <image name="MyMelodyShoes" width="499" height="500"/>
+        <image name="SatinTop" width="700" height="933"/>
         <image name="Screen Shot 2022-08-03 at 1.16.42 PM" width="2173" height="1443"/>
         <image name="Screen Shot 2022-08-03 at 1.56.59 PM" width="914" height="1151"/>
         <image name="Screen Shot 2022-08-03 at 2.44.22 PM" width="932" height="1245"/>
-        <image name="Screen Shot 2022-08-03 at 2.57.10 PM" width="964" height="1250"/>
         <image name="Screen Shot 2022-08-04 at 4.31.04 PM" width="847" height="505"/>
+        <image name="Screen Shot 2022-08-05 at 1.10.59 PM" width="814" height="560"/>
+        <image name="Screen Shot 2022-08-05 at 1.35.49 PM" width="93" height="225"/>
+        <image name="Styles 4" width="1600" height="1283"/>
+        <image name="cargo" width="500" height="500"/>
         <systemColor name="secondarySystemBackgroundColor">
             <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
